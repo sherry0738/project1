@@ -1,0 +1,89 @@
+* {
+
+}
+
+header {
+	font-size: 100px;
+	background-color: lightgreen;
+}
+
+main {
+	background-color: lightgray;
+}
+
+.player-info {
+	display: inline-block;
+	width: 700px;
+	height: 80px;
+	background-color: orange;
+	align-items: horizontal;
+	justify-content: flex-end;
+
+
+}
+
+.player1 {
+	display: inline-block;
+	border: 1px solid black;
+	width: 170px;
+	height:80px;
+}
+
+.round {
+	display: inline-block;
+	border: 1px solid black;
+	width: 150px;
+	height:80px;
+}
+.player2 {
+	display: inline-block;
+	border: 1px solid black;
+	width: 170px;
+	height:80px;
+}
+.board {
+	width: 600px;
+	height: 600px;
+	background-color: #ffefdb;
+	margin-left: 100px;
+	margin-top: 100px;
+	padding-left: 70px;
+	padding-top: 50px;
+}
+
+.box {
+	border: 3px solid black;
+	/*border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;*/
+	
+	width: 160px;
+	height: 160px;
+	float: left;
+	/*margin: 10px;*/
+	/*cursor: pointer;*/
+}
+
+/*.b1 .b2 .b3 {
+	
+	border-top-color: blue;
+
+}
+
+.b4 .b5 .b6 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.b7 .b8 .b9 {
+	border-bottom: none;
+}
+
+.b1 .b4 .b7 {
+	border-left: none;
+}
+
+.b3 .b6 .b9 {
+	border-right: none;*/
+}
